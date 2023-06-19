@@ -1,0 +1,20 @@
+{
+  "name": "arellak-library-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "author": "arellak",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/multipart": "^7.6.0",
+    "better-sqlite3": "^8.4.0",
+    "fastify": "^4.17.0",
+    "fastify-file-upload": "^4.0.0",
+    "quick.db": "^9.1.6"
+  }
+}

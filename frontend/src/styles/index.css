@@ -5,6 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #424242;
+  color: #EFEFEF;
+}
+
+a {
+  color: #EFEFEF;
+  text-decoration: underline;
+  transition: ease-in-out 0.3s;
+}
+
+a:hover {
+  color: #daa6ff;
+  transition: ease-in-out 0.3s;
 }
 
 code {
